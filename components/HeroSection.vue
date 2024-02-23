@@ -30,10 +30,10 @@ const bgStyles = heroImageOptimized.bgStyles
       class="bg-center bg-cover bg-no-repeat blur-none rounded-3xl z-0 bg-design-image lg:bg-design-image-large"
     > -->
       <div class>
-        <div class="lg:px-12 md:py-10 pb-6 pt-10 px-6 relative rounded-3xl">
+        <div class="lg:px-12 md:py-10 pb-6 pt-10 px-6 relative rounded-3xl shadow-xl">
           <div class="-mx-4 flex flex-wrap items-center mt-24 space-y-6 lg:space-y-0">
             <div class="px-4 w-full md:w-8/12 xl:w-6/12">
-              <h4 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase">
+              <h4 class="font-bold font-serif mb-1 text-white dark:text-primary-200 uppercase">
                 Embrace Convenience, Embrace Quality
               </h4>
               <h1 class="capitalize leading-tight mb-2 text-white">

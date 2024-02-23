@@ -17,7 +17,7 @@ definePageMeta({
       <h2 class="text-5xl font-semibold">Contact us</h2>
     </div>
   </TheHeader>
-  <div class="grid grid-cols-2 gap-4 mx-6">
+  <div class="md:grid grid-cols-2 gap-4 mx-6">
     <div class="self-center text-center">
       <h3 class="mb-10">Get in touch</h3>
       <ul class="text-center lg:mt-2 ">

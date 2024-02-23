@@ -9,87 +9,6 @@
             <div to="/" class="font-serif inline-flex items-center text-3xl">
 
               <NuxtImg sizes="100vw sm:50vw md:300px xs:200px" :src="isDark ? 'jny-white-logo.webp' : 'jny-logo.webp'" />
-              <!-- <svg
-                version="1.0"
-                xmlns="http://www.w3.org/2000/svg"
-                width="2.5em"
-                xml:space="preserve"
-                fill="currentColor"
-                viewBox="0 0 240 240"
-                height="2.5em"
-                class="mr-2"
-              >
-                <g transform="translate(17.704 -9.215)">
-                  <path
-                    d="M92.45 183.38a61.38 61.38 0 00-30.07 15.35 9.84 9.84 0 01-15.9-3.73 61.65 61.65 0 11115.83-.18 9.87 9.87 0 01-16 3.9 61.43 61.43 0 00-30.07-15.35"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></path>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-22.39 282.115 44.556)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-22.39 179.693 -83.499)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-67.61 176.48 -54.394)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="17.18"
-                    cy="17.18"
-                    r="17.18"
-                    transform="rotate(-67.61 119.616 -48.074)"
-                    fill="#99cd31"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></circle>
-                  <circle
-                    cx="3.19"
-                    cy="3.19"
-                    r="3.19"
-                    transform="translate(101.16 179.05)"
-                    fill="#475f17"
-                  ></circle>
-                  <path
-                    d="M89.72 137a20.84 20.84 0 00-20.84 20.84v.16"
-                    fill="none"
-                    stroke="#475f17"
-                    stroke-miterlimit="10"
-                    stroke-width="12"
-                  ></path>
-                  <path
-                    d="M15.7 47.82h-2.75v-2.76a3.4 3.4 0 00-6.79 0v2.76H3.4a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zm172.43 9.55h-2.76v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.76v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79zM25.25 203.82H22.5v-2.76a3.4 3.4 0 00-6.79 0v2.76h-2.76a3.4 3.4 0 000 6.79h2.75v2.76a3.4 3.4 0 006.79 0v-2.76h2.76a3.4 3.4 0 000-6.79z"
-                    fill="#475f17"
-                  ></path>
-                </g>
-              </svg>
-              <h6 class="font-serif inline-flex items-center text-3xl">
-                Happy Paws
-              </h6> -->
             </div>
           </NuxtLink>
           <p class="mt-2 text-center w-full lg:text-justify ">
@@ -100,10 +19,12 @@
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
-              <NuxtLink href="https://www.facebook.com/vuedesigner" aria-label="facebook" external target="_blank">
+              <NuxtLink class="md:hidden block"
+                href="https://www.facebook.com/p/JNY-Enterprises-100078759584040/?paipv=0&eav=AfYsCePwUsxjGy58yDOxnoYK-NeuUf9FX7NEV09WoMcZI5-IsRMLVSyV5n05Fd2dw6M&_rdr"
+                aria-label="facebook" external target="_blank">
                 <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px"></BaseIcon>
               </NuxtLink>
-              <NuxtLink href="https://twitter.com/vuedesigner" aria-label="twitter" external target="_blank">
+              <!-- <NuxtLink href="https://twitter.com/vuedesigner" aria-label="twitter" external target="_blank">
                 <BaseIcon name="i-logos-twitter" class="text-2xl" width="28px"></BaseIcon>
               </NuxtLink>
               <NuxtLink href="https://discord.gg/BYp45Nnu5T" aria-label="discord" external target="_blank">
@@ -111,61 +32,18 @@
               </NuxtLink>
               <NuxtLink href="https://www.youtube.com/@vuedesigner" aria-label="youtube" external target="_blank">
                 <BaseIcon name="i-logos-youtube-icon" class="text-2xl" width="28px"></BaseIcon>
-              </NuxtLink>
+              </NuxtLink> -->
             </div>
           </div>
 
         </div>
-        <div class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start">
-          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
-            General
-          </h2>
-          <ul class="text-center lg:mt-2 lg:text-left">
-            <li class="mb-4">
-              <NuxtLink to="/" class="hover:text-primary-600 dark:text-primary-200">FAQ</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/" class="hover:text-primary-600 dark:text-primary-200">News</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/" class="hover:text-primary-600 dark:text-primary-200">Careers</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/" class="hover:text-primary-600 dark:text-primary-200">Contact Us</NuxtLink>
-            </li>
-          </ul>
-        </div>
-        <div class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start">
-          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
-            Links
-          </h2>
-          <ul class="text-center lg:mt-2 lg:text-left">
-            <li class="mb-4">
-              <NuxtLink to="/adopt" class="hover:text-primary-600 dark:text-primary-200">Adopt Now</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/quick-start" class="hover:text-primary-600 dark:text-primary-200">Donate</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/articles" class="hover:text-primary-600 dark:text-primary-200">Articles</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="/blog" class="hover:text-primary-600 dark:text-primary-200">Blog</NuxtLink>
-            </li>
-            <!-- <li class="mb-4">
-              <NuxtLink to="/volunteer" class="hover:text-primary-600 dark:text-primary-200">Volunteer</NuxtLink>
-            </li>
-            <li class="mb-4">
-              <NuxtLink to="#" class="hover:text-primary-600 dark:text-primary-200">Our Mission</NuxtLink>
-            </li> -->
-          </ul>
-        </div>
-        <div class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start">
-          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
-            Links
+
+        <div class="flex flex-col items-center justify-center text-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 ">
+          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-center text-xl">
+            Contact
           </h2>
 
-          <ul class="text-center lg:mt-2 lg:text-left">
+          <ul class=" md:flex justify-between gap-10 ">
             <li class="mb-4">
               <NuxtLink to="tel:9419018801" class="hover:text-primary-600 dark:text-primary-200">
                 <BaseIcon name="i-logos-whatsapp-icon " class="text-2xl" width="28px"></BaseIcon>
@@ -185,6 +63,13 @@
                 </BaseIcon>
                 Rangreth, Srinagar
               </div>
+            </li>
+            <li class="md:block hidden">
+              <NuxtLink
+                href="https://www.facebook.com/p/JNY-Enterprises-100078759584040/?paipv=0&eav=AfYsCePwUsxjGy58yDOxnoYK-NeuUf9FX7NEV09WoMcZI5-IsRMLVSyV5n05Fd2dw6M&_rdr"
+                aria-label="facebook" external target="_blank">
+                <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px"></BaseIcon>
+              </NuxtLink>
             </li>
           </ul>
         </div>
@@ -240,13 +125,12 @@
         <div class="flex flex-col sm:w-full md:items-between text-center ">
           <hr class="mb-4 opacity-25" />
           <div class="flex flex-col md:flex-row justify-center md:justify-between">
-            <p class="py-1 text-sm text-center">
+            <p class="py-1 text-xs md:text-sm text-center">
               &copy; {{ currentYear }}. All Rights Reserved - JNY ENTERPRISES
             </p>
-            <p class="py-1 text-sm text-center">
+            <p class="py-1 text-xs md:text-sm text-center">
               Designed & Developed by - <Nuxt-Link to="https://rationaltabs.com/" target="_blank" class="font-bold">
-                RationalTabs
-                Technologies</Nuxt-Link>
+                Rational<span class="text-red-500">Tabs</span> Technologies</Nuxt-Link>
             </p>
           </div>
 
