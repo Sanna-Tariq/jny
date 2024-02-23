@@ -8,16 +8,6 @@
       "dateOfBirth": "20/01/2013",
       "image": "/products/boxes.webp",
       "location": "Burwood"
-    },
-    {
-      "id": 2,
-      "name": "Bella",
-      "breed": "Domestic Short Hair",
-      "sex": "Female",
-      "dateOfBirth": "06/05/2022",
-      "image": "/products/boxes.webp",
-      "microchip": "394875903840956",
-      "location": "Fraser Rise"
     }
   ]
 }
