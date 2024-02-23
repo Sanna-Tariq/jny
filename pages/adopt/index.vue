@@ -5,7 +5,7 @@ definePageMeta({
   // alias: 'blog',
   title: 'Products',
   description: 'Adopt Your Fur Mate!',
-  navOrder: 2,
+  navOrder: 3,
   type: 'primary',
   icon: 'i-mdi-home',
   // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png

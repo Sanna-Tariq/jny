@@ -7,7 +7,8 @@
           class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3">
           <NuxtLink class="-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center text-3xl">
-              <NuxtImg sizes="100vw sm:50vw md:300px xs:200px" src="jny-logo.webp" />
+
+              <NuxtImg sizes="100vw sm:50vw md:300px xs:200px" :src="isDark ? 'jny-white-logo.webp' : 'jny-logo.webp'" />
               <!-- <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"

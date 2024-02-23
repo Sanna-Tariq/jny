@@ -9,7 +9,7 @@ definePageMeta({
   description: 'Pioneering Excellence In Disposable Solutions',
   navOrder: 1,
   type: 'primary',
-  icon: 'i-mdi-home',
+  icon: 'i-mdi-call',
   // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
 })
 
@@ -42,7 +42,6 @@ const bgStyles = heroImageOptimized.bgStyles
     <MiniDivider />
     <OurMission />
     <PetListLite />
-    <StatsSection />
   </div>
 </template>
 <style scoped></style>

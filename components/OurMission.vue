@@ -31,7 +31,7 @@
           Join us in our mission to make everyday convenience sustainable. Together, let's shape a greener future, one
           disposable item at a time.
         </p> -->
-        <BaseButton size="xl" to="/articles"> Learn More </BaseButton>
+        <BaseButton size="xl" to="/about"> Learn More </BaseButton>
       </div>
     </div>
   </div>
