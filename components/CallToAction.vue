@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const callToActions = [
   {
-    img: '/deal/coffee-cup.webp',
-    action: 'Coffee cups',
-    to: '/coffe-cups',
+    img: '/deal/tissue.webp',
+    action: 'JNY Tissues',
+    to: '/tissue',
   },
   {
     img: '/deal/coke.webp',
@@ -26,7 +26,7 @@ const callToActions = [
       <h3 class="capitalize mt-3 text-center">
         Small gesture for a big impact
       </h3>
-      <p class="mt-4 text-justify md-text-center">
+      <p class="mt-4 text-justify md:text-center">
         At JNY Enterprises, we specialize in providing an extensive range of high-quality disposable solutions tailored to
         meet diverse needs. From eco-friendly cups to sustainable cutlery and packaging, we offer convenient and reliable
         products for businesses and individuals alike. Our commitment to excellence and customer satisfaction drives us to
