@@ -1,0 +1,83 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Dry Fruit Boxes",
+      "breed": "Rottweiler",
+      "sex": "Male",
+      "dateOfBirth": "20/01/2013",
+      "image": "/products/boxes.webp",
+      "location": "Burwood"
+    },
+    {
+      "id": 2,
+      "name": "Bella",
+      "breed": "Domestic Short Hair",
+      "sex": "Female",
+      "dateOfBirth": "06/05/2022",
+      "image": "/products/boxes.webp",
+      "microchip": "394875903840956",
+      "location": "Fraser Rise"
+    },
+    {
+      "id": 3,
+      "name": "Milo",
+      "breed": "American Staffy",
+      "sex": "Male",
+      "dateOfBirth": "18/07/2018",
+      "image": "/products/boxes.webp",
+      "microchip": "320485904869080",
+      "location": "Sunshine"
+    },
+    {
+      "id": 4,
+      "name": "Rocky",
+      "breed": "Rabbit",
+      "sex": "Male",
+      "dateOfBirth": "22/12/2022",
+      "image": "/products/boxes.webp",
+      "microchip": "834975839475987",
+      "location": "Tullamarine"
+    },
+    {
+      "id": 5,
+      "name": "Jack",
+      "breed": "Guinea Pig",
+      "sex": "Male",
+      "dateOfBirth": "11/1/2017",
+      "image": "/products/boxes.webp",
+      "microchip": "456346508098034",
+      "location": "Wangaratta"
+    },
+    {
+      "id": 6,
+      "name": "Cooper",
+      "breed": "German Shepherd",
+      "sex": "Male",
+      "dateOfBirth": "09/08/2016",
+      "image": "/products/boxes.webp",
+      "microchip": "823827493874982",
+      "location": "Warnambool"
+    },
+    {
+      "id": 7,
+      "name": "Lola",
+      "breed": "Labrador Retriever",
+      "sex": "Female",
+      "dateOfBirth": "01/01/2022",
+      "image": "/products/boxes.webp",
+      "microchip": "540698094586098",
+      "location": "Peninsula"
+    },
+    {
+      "id": 8,
+      "name": "Maggie",
+      "breed": "Domestic Long Hair",
+      "sex": "Female",
+      "dateOfBirth": "17/05/2022",
+      "image": "/products/boxes.webp",
+      "microchip": "908273958798740",
+      "location": "Burwood"
+    }
+  ]
+}
