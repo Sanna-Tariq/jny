@@ -18,7 +18,7 @@ export default {
   titleSeparator: '|', // default
   nav: [
     { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Products', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Products', link: '/product', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',
       link: '/quick-start',

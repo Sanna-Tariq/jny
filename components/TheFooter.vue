@@ -58,7 +58,7 @@
               </NuxtLink>
             </li>
             <li class="mb-4">
-              <div to="mailto:info@jnyenterprises.com" class="hover:text-primary-600 dark:text-primary-200">
+              <div class="hover:text-primary-600 dark:text-primary-200">
                 <BaseIcon name="i-material-symbols-add-location-alt-outline-rounded" class="text-2xl" width="28px">
                 </BaseIcon>
                 Rangreth, Srinagar

@@ -21,7 +21,7 @@ const { somePets: pets } = await usePets()
             </p>
           </div>
           <div class="px-4 text-center w-full">
-            <BaseButton size="xl" to="/adopt" color="secondary"><span>See All ></span>
+            <BaseButton size="xl" to="/product" color="secondary"><span>See All ></span>
             </BaseButton>
           </div>
         </div>

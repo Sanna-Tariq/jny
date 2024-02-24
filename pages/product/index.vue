@@ -15,16 +15,16 @@ definePageMeta({
   <div class="py-12 bg-primary-100 dark:bg-primary-700 text-primary-900 dark:text-primary-100">
     <div class="flex flex-col items-center">
       <div class="px-4 text-center w-full lg:w-7/12">
-        <h6 class="uppercase">Adopt A Pet</h6>
-        <h3 class="capitalize">Small Gesture For A Big Impact</h3>
+        <h6 class="uppercase">Our Products</h6>
+        <h3 class="capitalize"> Explore Our Premium Products</h3>
         <p class="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
-          congue tortor.
+          Elevate your experience with our premium products, meticulously crafted for quality and sustainability. Explore
+          convenience redefined, one detail at a time.
         </p>
       </div>
     </div>
     <div class="-mt-4 mx-auto pt-8 px-4 relative">
-      <div class="-mx-4 flex flex-wrap items-center justify-center mb-4">
+      <div class="-mx-4 items-center justify-center mb-4">
         <PetList />
       </div>
     </div>

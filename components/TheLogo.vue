@@ -33,6 +33,9 @@ const { name, logo } = site
   </NuxtLink> -->
   <!-- <NuxtImg sizes="100vw sm:50vw md:250px xs:200px" v-if="isDark" alt=" article.user.name" src="/jny-white-logo.webp" />
   <NuxtImg sizes="100vw sm:50vw md:250px xs:200px" v-else alt=" article.user.name" src="/jny-logo.webp" /> -->
-  <NuxtImg sizes="100vw sm:50vw md:250px xs:200px" alt=" LOGO" :src="isDark ? 'jny-white-logo.webp' : 'jny-logo.webp'" />
+  <Nuxt-Link to="/">
+    <NuxtImg sizes="100vw sm:50vw md:250px xs:200px" alt=" LOGO"
+      :src="isDark ? 'jny-white-logo.webp' : 'jny-logo.webp'" />
+  </Nuxt-Link>
 </template>
 <style scoped></style>

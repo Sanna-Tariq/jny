@@ -3,7 +3,7 @@ import type { Pet } from '../types/pets'
 const { id, name, breed, image } = defineProps<Pet>()
 </script>
 <template>
-  <NuxtLink class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12" :to="`/adopt/${id}`">
+  <NuxtLink class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12" :to="`/product/${id}`">
     <div
       class="m-3 text-neutral-900 dark:text-neutral-100 bg-neutral-50 dark:bg-neutral-900 px-6 py-12 rounded-3xl shadow-xl text-center">
       <!-- <img

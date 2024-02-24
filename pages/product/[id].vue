@@ -43,7 +43,7 @@ useHead({
       <div class="px-8">
         <div class="flex flex-wrap lg:justify-between">
           <div class="py-4 text-center w-full lg:w-fit">
-            <NuxtLink to="/adopt">
+            <NuxtLink to="/product">
               <BaseButton><span>&lt;- Go Back</span> </BaseButton>
             </NuxtLink>
           </div>
@@ -94,25 +94,27 @@ useHead({
               <ul>
                 <li class="flex items-center justify-center lg:justify-start">
                   <BaseIcon name="i-material-symbols-check-box-outline" height="28px"></BaseIcon><span
-                    class="inline-block ml-2">Done</span>
+                    class="inline-block ml-2">Contact us </span>
                 </li>
                 <li class="flex items-center justify-center mt-4 lg:justify-start">
                   <BaseIcon name="i-twemoji-sparkling-heart" height="24px"></BaseIcon>
-                  <span class="ml-2">Health Check</span>
+                  <span class="ml-2">We would like to assist you</span>
                 </li>
                 <li class="flex items-center justify-center mt-4 lg:justify-start">
                   <BaseIcon name="i-bx-bxs-microchip" height="24px" class="text-tertiary-600 dark:text-tertiary-200">
                   </BaseIcon>
-                  <span class="ml-2">Microchipped</span>
+                  <span class="ml-2"><Nuxt-Link to="tel:9419018801">9419018801</Nuxt-Link></span>
                 </li>
                 <li class="flex items-center justify-center mt-4 lg:justify-start">
-                  <BaseIcon name="i-twemoji-worm" height="24px"></BaseIcon>
-                  <span class="ml-2">De-wormed</span>
+                  <BaseIcon name="i-material-symbols-mark-email-unread-outline" height="24px"></BaseIcon>
+                  <span class="ml-2"><Nuxt-link
+                      to="mailto:info@jnyenterprises.com">info@jnyenterprises.com</Nuxt-link></span>
                 </li>
                 <li class="flex items-center justify-center mt-4 lg:justify-start">
-                  <BaseIcon name="i-healthicons-sexual-reproductive-health-outline" height="24px" class="text-indigo-600">
+                  <BaseIcon name="i-material-symbols-add-location-alt-outline-rounded" height="24px"
+                    class="text-indigo-600">
                   </BaseIcon>
-                  <span class="ml-2">De-sexed</span>
+                  <span class="ml-2">Rangreth, Srinagar</span>
                 </li>
               </ul>
             </div>
@@ -134,3 +136,10 @@ useHead({
     </div>
   </div>
 </template>
+
+<!-- Brand	Wrapper India
+Color	White & Black
+Material	Plastic
+Features	Disposable
+Price Range	Rs. 9.50 - Rs. 18
+Country of Origin	Made in India -->

@@ -20,33 +20,42 @@
         </div>
         <div class="lg:w-6/12 mx-auto p-4 w-full">
           <h6 class="font-bold mb-2 text-primary-600 dark:text-primary-200 uppercase">
-            Our Work
+            Welcome to JNY Enterprises
           </h6>
-          <h3 class="capitalize mb-6">Impact we make</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
-          </p>
-          <div class="-mx-4 flex flex-wrap items-center">
-            <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">1200+</h2>
-              <p>Animals Adopted</p>
-            </div>
-            <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">1000+</h2>
-              <p>Families United</p>
-            </div>
-            <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">20+</h2>
-              <p>Active Volunteers</p>
-            </div>
-            <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">10K+</h2>
-              <p>Animals Helped</p>
-            </div>
-          </div>
+          <h3 class="capitalize mb-6">Celebrating a Legacy of Excellence</h3>
+          <p>Established with a vision to redefine convenience and sustainability in disposable solutions, JNY Enterprises
+            has emerged as a beacon of innovation in the industry. With a rich history spanning [X years], our journey is
+            marked by a steadfast commitment to quality, integrity, and customer satisfaction.</p>
+
+          <p>At JNY Enterprises, we take pride in offering a diverse array of premium disposable products meticulously
+            crafted to meet the evolving needs of our clients. From eco-conscious cups to biodegradable cutlery and
+            packaging, each item in our collection reflects our unwavering dedication to quality craftsmanship and
+            environmental responsibility.</p>
+
         </div>
       </div>
+      <div class="text-justify">
+        <p>But our story extends beyond just products. It's about fostering meaningful connections, nurturing
+          partnerships, and creating lasting impressions. Whether catering to small businesses or large-scale events,
+          our ethos remains rooted in providing tailored solutions that elevate experiences and leave a positive impact.
+        </p>
+
+        <p class="mt-5">Central to our mission is the belief that sustainability and convenience can coexist
+          harmoniously. We
+          continuously strive to minimize our environmental footprint by sourcing responsibly, innovating responsibly,
+          and championing sustainable practices throughout our operations.</p>
+
+        <p class="mt-5">Our success is not measured merely by profit margins, but by the trust and satisfaction of our
+          customers. We
+          are deeply grateful for the support and loyalty we've received over the years, and we remain steadfast in our
+          commitment to exceeding expectations and driving positive change.</p>
+
+        <p class="italic mt-5">Thank you for being a part of our journey. Together, let's continue shaping a brighter,
+          more
+          sustainable
+          future—one disposable solution at a time.</p>
+      </div>
+
     </div>
   </section>
 </template>
