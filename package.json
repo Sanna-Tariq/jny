@@ -1,12 +1,16 @@
 {
-  "name": "jny-enterprises",
+  "name": "happy-paws-with-nuxt-tailwindcss",
   "version": "0.0.0",
-  "homepage": "/",
+  "homepage": "https://happy-paws-with-nuxt-tailwindcss.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss.git"
+  },
   "scripts": {
     "dev": "nuxt dev",
     "now": "npm run build && npm run preview",
     "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:3000",
-    "lighthouse": "npx unlighthouse --no-cache --site jnyenterprises.com",
+    "lighthouse": "npx unlighthouse --no-cache --site https://happy-paws-with-nuxt-tailwindcss.netlify.app",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
