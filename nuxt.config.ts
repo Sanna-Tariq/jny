@@ -1,17 +1,7 @@
 // import { fileURLToPath, URL } from 'node:url'
 import presetIcons from '@unocss/preset-icons'
 
-import site from './site'
-const {
-  name,
-  description,
-  url,
-  defaultLocale,
-  identity,
-  twitter,
-  trailingSlash,
-  titleSeparator,
-} = site
+
 
 export default defineNuxtConfig({
   nitro: {
@@ -116,33 +106,21 @@ export default defineNuxtConfig({
         },
       },
     },
-    netlify: {
-      baseURL: url,
-    },
-    domains: [
-      'images.unsplash.com',
-      'fakestoreapi.com',
-      'res.cloudinary.com',
-      'avatars.githubusercontent.com',
-      'gravatar.com',
-    ],
 
     // alias: {
     //   unsplash: 'https://images.unsplash.com',
     // },
   },
 
-  veeValidate: {
-    // disable or enable auto imports
-    autoImports: true,
-    // Use different names for components
-    componentNames: {
-      Form: 'VeeForm',
-      Field: 'VeeField',
-      FieldArray: 'VeeFieldArray',
-      ErrorMessage: 'VeeErrorMessage',
-    },
-  },
+  // veeValidate: {
+  //   autoImports: true,
+  //   componentNames: {
+  //     Form: 'VeeForm',
+  //     Field: 'VeeField',
+  //     FieldArray: 'VeeFieldArray',
+  //     ErrorMessage: 'VeeErrorMessage',
+  //   },
+  // },
 
   content: {
     markdown: {
@@ -194,17 +172,7 @@ export default defineNuxtConfig({
 
   // Used by all modules in the @nuxtseo/module collection
   // https://nuxtseo.com/nuxt-seo/guides/configuring-modules
-  site: {
-    url,
-    name,
-    description,
-    defaultLocale,
-    // https://nuxtseo.com/nuxt-seo/guides/setting-an-identity
-    identity,
-    twitter,
-    trailingSlash,
-    titleSeparator,
-  },
+
   robots: {
     // https://nuxtseo.com/robots/api/config#blocknonseobots
     blockNonSeoBots: true,
