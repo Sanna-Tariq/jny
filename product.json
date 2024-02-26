@@ -3,50 +3,36 @@
         {
             "id": 1,
             "name": "JNY Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "feature": "red",
-            "price": "red",
-            "country": "red",
-            "image": "/products/boxes.webp"
+            "material": "Paper pulp",
+            "color": "White",
+            "feature": "Highly absorbent",
+            "price": "50",
+            "country": "India",
+            "image": "/products/tissue.webp"
         },
         {
             "id": 2,
-            "name": "Hello World Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "image": "/products/boxes.webp"
+            "name": "Disposable Coffee Cups",
+            "material": "plastic",
+            "color": "Multiple colors available",
+            "image": "/products/coffee-cups.webp"
         },
         {
-            "id": 2,
-            "name": "Hello World Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "image": "/products/boxes.webp"
+            "id": 3,
+            "name": "150ml paper Tea cups",
+            "material": "paper",
+            "color": "multi-color",
+            "image": "/products/paper-cups.webp"
         },
         {
-            "id": 2,
-            "name": "Hello World Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "image": "/products/boxes.webp"
+            "id": 4,
+            "name": "Disposable plates",
+            "material": "plastic",
+            "color": "Transparent and different colors available",
+            "image": "/products/plate.webp"
         },
         {
-            "id": 2,
-            "name": "Hello World Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "image": "/products/boxes.webp"
-        },
-        {
-            "id": 2,
-            "name": "Hello World Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "image": "/products/boxes.webp"
-        },
-        {
-            "id": 2,
+            "id": 5,
             "name": "Hello World Tissues",
             "material": "Rottweiler",
             "color": "red",

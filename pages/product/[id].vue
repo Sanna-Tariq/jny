@@ -1,8 +1,8 @@
 <template>
   <TheHeader>
-    <div class="flex items-center">
-      <h3 class="capitalize text-5xl font-semibold">{{ name }}</h3>
-      <h6 class="uppercase ml-20">Product ID: {{ id }}</h6>
+    <div class="flex items-center ">
+      <h6 class="capitalize text-3xl font-semibold ">{{ name }}</h6>
+      <!-- <h6 class="uppercase ml-20">Product ID: {{ id }}</h6> -->
     </div>
 
     <!-- <slot /> -->
@@ -27,11 +27,15 @@
         </div>
         <div class="flex flex-wrap py-8 w-full lg:flex-nowrap">
           <div class="flex flex-wrap justify-center text-center w-full lg:flex-nowrap lg:text-left">
-            <div class="w-full">
+            <div class="w-full rounded  shadow-md shadow-indigo-500/50">
               <NuxtImg :src="image" class="rounded-xl w-full" :alt="name" />
             </div>
-            <div class="py-8 w-full sm:px-16">
+            <div class="py-8 w-full sm:px-16 self-center">
               <ul>
+                <li class="mb-4">
+                  <span class="font-semibold">Name:</span>
+                  <span class="ml-2">{{ name }}</span>
+                </li>
                 <li class="mb-4">
                   <span class="font-semibold">Material:</span>
                   <span class="ml-2">{{ material }}</span>
@@ -46,22 +50,22 @@
                 </li>
                 <li class="mb-4">
                   <span class="font-semibold">Price:</span>
-                  <span class="ml-2">{{ price }}</span>
+                  <span class="ml-2">₹ {{ price }}</span>
                 </li>
-                <li class="flex items-center justify-center mb-4 lg:justify-start">
+                <!-- <li class="flex items-center justify-center mb-4 lg:justify-start">
                   <BaseIcon name="i-material-symbols-add-location-alt-outline-rounded" height="28px"
                     class="-ml-1 font-semibold"></BaseIcon>
                   <span class="ml-2">{{ }}</span>
-                </li>
+                </li> -->
                 <li class="mb-4">
                   <span class="font-semibold">Country:</span>
-                  <span class="ml-2">Vaccination</span>
+                  <span class="ml-2">Made in {{ country }}</span>
                 </li>
               </ul>
             </div>
             <div
               class="max-w-xs py-8 rounded-xl w-full sm:px-8 bg-primary-600 dark:bg-primary-200 text-white dark:text-primary-800">
-              <ul>
+              <ul class="inline-block align-middle">
                 <li class="flex items-center justify-center lg:justify-start">
                   <BaseIcon name="i-material-symbols-check-box-outline" height="28px"></BaseIcon><span
                     class="inline-block ml-2">Contact us </span>
@@ -114,7 +118,7 @@ const { id: productId } = route.params
 
 const { fetchProduct } = await useProduct(+productId)
 
-const { id, name, material, color, price, image, feature } =
+const { id, name, material, color, price, image, feature, country } =
   fetchProduct()
 
 useServerSeoMeta({
