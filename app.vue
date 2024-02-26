@@ -36,7 +36,6 @@ useSchemaOrg([
 
 const route = useRoute()
 const ogImage = computed(() => (route.meta.ogImage || heroImageUrl) as string)
-console.log('--ogImage', ogImage, '---heroImageUrl----', heroImageUrl)
 const { optimizeImage } = useOptimizeImage()
 const theOgImageOptimized = {
   alt: `hero`,

@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "JNY Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "feature": "red",
+            "price": "red",
+            "country": "red",
+            "image": "/products/boxes.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hello World Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "image": "/products/boxes.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hello World Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "image": "/products/boxes.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hello World Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "image": "/products/boxes.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hello World Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "image": "/products/boxes.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hello World Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "image": "/products/boxes.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hello World Tissues",
+            "material": "Rottweiler",
+            "color": "red",
+            "image": "/products/boxes.webp"
+        }
+    ]
+}

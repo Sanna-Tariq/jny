@@ -1,33 +1,3 @@
-<script setup lang="ts">
-definePageMeta({
-  // layout: 'default',
-  // name: 'blog',
-  // alias: 'blog',
-  title: 'More Details',
-  description: 'More details about the product',
-  hidden: true,
-  navOrder: 2,
-  type: 'primary',
-  icon: 'i-mdi-home',
-  // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
-})
-
-const route = useRoute()
-const { id: petId } = route.params
-
-const { fetchPet } = await usePet(+petId)
-
-const { id, name, breed, sex, dateOfBirth, image, microchip, location } =
-  fetchPet()
-
-useServerSeoMeta({
-  description: () => name || '',
-})
-
-useHead({
-  title: () => name || '',
-})
-</script>
 <template>
   <TheHeader>
     <div class="flex items-center">
@@ -55,7 +25,7 @@ useHead({
               <BaseIcon name="i-logos-twitter" height="28px"></BaseIcon> -->
           </div>
         </div>
-        <div class="flex flex-wrap pt-8 w-full lg:flex-nowrap">
+        <div class="flex flex-wrap py-8 w-full lg:flex-nowrap">
           <div class="flex flex-wrap justify-center text-center w-full lg:flex-nowrap lg:text-left">
             <div class="w-full">
               <NuxtImg :src="image" class="rounded-xl w-full" :alt="name" />
@@ -64,27 +34,27 @@ useHead({
               <ul>
                 <li class="mb-4">
                   <span class="font-semibold">Material:</span>
-                  <span class="ml-2">{{ breed }}</span>
+                  <span class="ml-2">{{ material }}</span>
                 </li>
                 <li class="mb-4">
-                  <span class="font-semibold">Age:</span>
-                  <span class="ml-2">{{ dateOfBirth }}</span>
+                  <span class="font-semibold">Color:</span>
+                  <span class="ml-2">{{ color }}</span>
                 </li>
                 <li class="mb-4">
-                  <span class="font-semibold">Gender:</span>
-                  <span class="ml-2">{{ sex }}</span>
+                  <span class="font-semibold">Feature:</span>
+                  <span class="ml-2">{{ feature }}</span>
                 </li>
                 <li class="mb-4">
-                  <span class="font-semibold">Microchip No:</span>
-                  <span class="ml-2">{{ microchip }}</span>
+                  <span class="font-semibold">Price:</span>
+                  <span class="ml-2">{{ price }}</span>
                 </li>
                 <li class="flex items-center justify-center mb-4 lg:justify-start">
                   <BaseIcon name="i-material-symbols-add-location-alt-outline-rounded" height="28px"
                     class="-ml-1 font-semibold"></BaseIcon>
-                  <span class="ml-2">{{ location }}</span>
+                  <span class="ml-2">{{ }}</span>
                 </li>
                 <li class="mb-4">
-                  <span class="font-semibold">Includes:</span>
+                  <span class="font-semibold">Country:</span>
                   <span class="ml-2">Vaccination</span>
                 </li>
               </ul>
@@ -120,23 +90,41 @@ useHead({
             </div>
           </div>
         </div>
-        <div class="mt-8 px-8 text-center lg:text-left">
-          <p>
-            To adopt
-            <span class="mx-1 text-primary-600 dark:text-primary-200">{{ name }} </span><span>or learn more, please
-              visit our adoption centre at </span><span class="mx-1 text-primary-600 dark:text-primary-200">{{ location
-              }}.</span><span>Appointments are not required and walk-ins are welcome.</span>
-          </p>
-          <p class="mt-2">
-            Alternatively, please contact our {{ location }} team directly on
-            <span class="text-primary-600 dark:text-primary-200">03 2394 3284</span>
-          </p>
-        </div>
+
       </div>
     </div>
   </div>
 </template>
+<script setup lang="ts">
+definePageMeta({
+  // layout: 'default',
+  // name: 'blog',
+  // alias: 'blog',
+  title: 'More Details',
+  description: 'More details about the product',
+  hidden: true,
+  navOrder: 2,
+  type: 'primary',
+  icon: 'i-mdi-home',
+  // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
+})
 
+const route = useRoute()
+const { id: productId } = route.params
+
+const { fetchProduct } = await useProduct(+productId)
+
+const { id, name, material, color, price, image, feature } =
+  fetchProduct()
+
+useServerSeoMeta({
+  description: () => name || '',
+})
+
+useHead({
+  title: () => name || '',
+})
+</script>
 <!-- Brand	Wrapper India
 Color	White & Black
 Material	Plastic

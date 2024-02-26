@@ -14,6 +14,12 @@ const {
 } = site
 
 export default defineNuxtConfig({
+  nitro: {
+    prerender: {
+      routes: ['/', '/about', '/contact'],
+      // ignore: ['/product']
+    }
+  },
   extends: [
     './my-nuxt-tailwindcss-layer', // NavBar and Footer components
   ],
@@ -121,9 +127,9 @@ export default defineNuxtConfig({
       'gravatar.com',
     ],
 
-    alias: {
-      unsplash: 'https://images.unsplash.com',
-    },
+    // alias: {
+    //   unsplash: 'https://images.unsplash.com',
+    // },
   },
 
   veeValidate: {

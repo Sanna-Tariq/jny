@@ -1,6 +1,3 @@
-<script setup lang="ts">
-const { somePets: pets } = await usePets()
-</script>
 <template>
   <div class="bg-primary-100 dark:bg-primary-700">
     <div class="pb-24 pt-12">
@@ -26,10 +23,12 @@ const { somePets: pets } = await usePets()
           </div>
         </div>
         <div class="flex flex-wrap -mx-4 justify-center">
-          <PetCard v-for="(pet, index) in pets" :key="index" v-bind="pet"></PetCard>
+          <PetCard v-for="(item, index) in someProducts" :key="index" v-bind="item"></PetCard>
         </div>
       </div>
     </div>
   </div>
 </template>
-<style scoped></style>
+<script setup lang="ts">
+const { someProducts } = await useProducts()
+</script>
