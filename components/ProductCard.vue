@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Pet } from '../types/pets'
-const { id, name, breed, image } = defineProps<Pet>()
+import type { Product } from '../types/products'
+const { id, name, price, image } = defineProps<Product>()
 </script>
 <template>
   <NuxtLink class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12" :to="`/product/${id}`">
@@ -19,7 +19,7 @@ const { id, name, breed, image } = defineProps<Pet>()
       /> -->
       <h5 class="font-bold mb-2">{{ name }}</h5>
       <p class="mb-6 text-secondary-600 dark:text-secondary-200 text-sm">
-        {{ breed }}
+        ₹ {{ price }}
       </p>
       <BaseButton size="lg"><span>More Details</span>
         <BaseIcon name="i-ri-heart-add-fill" height="20px" class="!text-tertiary-600 md:ml-1.5"></BaseIcon>

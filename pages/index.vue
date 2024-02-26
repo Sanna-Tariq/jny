@@ -41,7 +41,7 @@ const bgStyles = heroImageOptimized.bgStyles
     <CallToAction />
     <MiniDivider />
     <OurMission />
-    <PetListLite />
+    <ProductListLite />
   </div>
 </template>
 <style scoped></style>

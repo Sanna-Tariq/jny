@@ -8,6 +8,7 @@ export type Product = {
     feature: string,
     price: string,
     country: string,
+    image: string,
     imageOptimized?: ImageOptimized
 }
 

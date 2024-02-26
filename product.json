@@ -15,6 +15,9 @@
             "name": "Disposable Coffee Cups",
             "material": "plastic",
             "color": "Multiple colors available",
+            "feature": "Single use",
+            "price": "50",
+            "country": "India",
             "image": "/products/coffee-cups.webp"
         },
         {
@@ -22,6 +25,9 @@
             "name": "150ml paper Tea cups",
             "material": "paper",
             "color": "multi-color",
+            "feature": "Biodegradable",
+            "price": "10",
+            "country": "India",
             "image": "/products/paper-cups.webp"
         },
         {
@@ -29,14 +35,10 @@
             "name": "Disposable plates",
             "material": "plastic",
             "color": "Transparent and different colors available",
+            "feature": "Single use",
+            "price": "15",
+            "country": "India",
             "image": "/products/plate.webp"
-        },
-        {
-            "id": 5,
-            "name": "Hello World Tissues",
-            "material": "Rottweiler",
-            "color": "red",
-            "image": "/products/boxes.webp"
         }
     ]
 }

@@ -25,7 +25,7 @@ definePageMeta({
     </div>
     <div class="-mt-4 mx-auto pt-8 px-4 relative">
       <div class="-mx-4 items-center justify-center mb-4">
-        <PetList />
+        <ProductList />
       </div>
     </div>
   </div>

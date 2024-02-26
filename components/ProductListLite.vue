@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="flex flex-wrap -mx-4 justify-center">
-          <PetCard v-for="(item, index) in someProducts" :key="index" v-bind="item"></PetCard>
+          <ProductCard v-for="(item, index) in someProducts" :key="index" v-bind="item"></ProductCard>
         </div>
       </div>
     </div>

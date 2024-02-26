@@ -2,8 +2,8 @@
   <div>
     <div class="container mx-auto px-4 relative">
       <div class="flex flex-wrap -mx-4 ">
-        <PetCard v-for="(item, index) in allProducts" v-bind="item" :key="index" class>
-        </PetCard>
+        <ProductCard v-for="(item, index) in allProducts" v-bind="item" :key="index" class>
+        </ProductCard>
       </div>
     </div>
   </div>
