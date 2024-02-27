@@ -1,28 +1,39 @@
-
 <template>
-  <footer class="pt-12 ">
+  <footer class="pt-12">
     <div class="container mx-auto px-8">
       <div class="flex flex-wrap relative">
         <div
-          class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3">
+          class="-mx-4 flex flex-col flex-wrap items-center pl-4 pr-8 py-4 md:flex-col md:flex-nowrap -mt-4 lg:items-start lg:w-1/3"
+        >
           <NuxtLink class="-ml-6" to="/">
             <div to="/" class="font-serif inline-flex items-center text-3xl">
-
-              <NuxtImg sizes="100vw sm:50vw md:300px xs:200px" :src="isDark ? 'jny-white-logo.webp' : 'jny-logo.webp'" />
+              <NuxtImg
+                sizes="100vw sm:50vw md:300px xs:200px"
+                :src="isDark ? 'jny-white-logo.webp' : 'jny-logo.webp'"
+              />
             </div>
           </NuxtLink>
-          <p class="mt-2 text-center w-full lg:text-justify ">
-            Welcome to JNY Enterprises, your premier destination for high-quality disposable items.
+          <p class="mt-2 text-center w-full lg:text-justify">
+            Welcome to JNY Enterprises, your premier destination for
+            high-quality disposable items.
             <!-- From cups to cutlery,
             we offer a wide range of convenient solutions to meet your needs. With a commitment to quality and
             sustainability, we strive to make every disposable experience exceptional. -->
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
-              <NuxtLink class="md:hidden block"
+              <NuxtLink
+                class="md:hidden block"
                 href="https://www.facebook.com/p/JNY-Enterprises-100078759584040/?paipv=0&eav=AfYsCePwUsxjGy58yDOxnoYK-NeuUf9FX7NEV09WoMcZI5-IsRMLVSyV5n05Fd2dw6M&_rdr"
-                aria-label="facebook" external target="_blank">
-                <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px"></BaseIcon>
+                aria-label="facebook"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-facebook"
+                  class="text-2xl"
+                  width="28px"
+                ></BaseIcon>
               </NuxtLink>
               <!-- <NuxtLink href="https://twitter.com/vuedesigner" aria-label="twitter" external target="_blank">
                 <BaseIcon name="i-logos-twitter" class="text-2xl" width="28px"></BaseIcon>
@@ -35,31 +46,52 @@
               </NuxtLink> -->
             </div>
           </div>
-
         </div>
 
-        <div class="flex flex-col items-center justify-center text-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 ">
-          <h2 class="font-bold text-primary-600 dark:text-primary-200 text-center text-xl">
+        <div
+          class="flex flex-col items-center justify-center text-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3"
+        >
+          <h2
+            class="font-bold text-primary-600 dark:text-primary-200 text-center text-xl"
+          >
             Contact
           </h2>
 
-          <ul class=" md:flex justify-between gap-10 ">
+          <ul class="md:flex justify-between gap-10">
             <li class="mb-4">
-              <NuxtLink to="tel:9419018801" class="hover:text-primary-600 dark:text-primary-200">
-                <BaseIcon name="i-logos-whatsapp-icon " class="text-2xl" width="28px"></BaseIcon>
+              <NuxtLink
+                to="tel:9419018801"
+                class="hover:text-primary-600 dark:text-primary-200"
+              >
+                <BaseIcon
+                  name="i-logos-whatsapp-icon "
+                  class="text-2xl"
+                  width="28px"
+                ></BaseIcon>
                 9419018801
               </NuxtLink>
             </li>
             <li class="mb-4">
-              <NuxtLink to="mailto:info@jnyenterprises.com" class="hover:text-primary-600 dark:text-primary-200">
-                <BaseIcon name="i-material-symbols-mark-email-unread-outline " class="text-2xl" width="28px">
+              <NuxtLink
+                to="mailto:info@jnyenterprises.com"
+                class="hover:text-primary-600 dark:text-primary-200"
+              >
+                <BaseIcon
+                  name="i-material-symbols-mark-email-unread-outline "
+                  class="text-2xl"
+                  width="28px"
+                >
                 </BaseIcon>
                 info@jnyenterprises.com
               </NuxtLink>
             </li>
             <li class="mb-4">
               <div class="hover:text-primary-600 dark:text-primary-200">
-                <BaseIcon name="i-material-symbols-add-location-alt-outline-rounded" class="text-2xl" width="28px">
+                <BaseIcon
+                  name="i-material-symbols-add-location-alt-outline-rounded"
+                  class="text-2xl"
+                  width="28px"
+                >
                 </BaseIcon>
                 Rangreth, Srinagar
               </div>
@@ -67,8 +99,15 @@
             <li class="md:block hidden">
               <NuxtLink
                 href="https://www.facebook.com/p/JNY-Enterprises-100078759584040/?paipv=0&eav=AfYsCePwUsxjGy58yDOxnoYK-NeuUf9FX7NEV09WoMcZI5-IsRMLVSyV5n05Fd2dw6M&_rdr"
-                aria-label="facebook" external target="_blank">
-                <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px"></BaseIcon>
+                aria-label="facebook"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-facebook"
+                  class="text-2xl"
+                  width="28px"
+                ></BaseIcon>
               </NuxtLink>
             </li>
           </ul>
@@ -122,30 +161,38 @@
             </div>
           </div>
         </div> -->
-        <div class="flex flex-col sm:w-full md:items-between text-center ">
+        <div class="flex flex-col sm:w-full md:items-between text-center">
           <hr class="mb-4 opacity-25" />
-          <div class="flex flex-col md:flex-row justify-center md:justify-between">
+          <div
+            class="flex flex-col md:flex-row justify-center md:justify-between"
+          >
             <p class="py-1 text-xs md:text-sm text-center">
               &copy; {{ currentYear }}. All Rights Reserved - JNY ENTERPRISES
             </p>
             <p class="py-1 text-xs md:text-sm text-center">
-              Designed & Developed by - <Nuxt-Link to="https://rationaltabs.com/" target="_blank" class="font-bold">
-                Rational<span class="text-red-500">Tabs</span> Technologies</Nuxt-Link>
+              Designed & Developed by -
+              <Nuxt-Link
+                to="https://rationaltabs.com/"
+                target="_blank"
+                class="font-bold"
+              >
+                Rational<span class="text-red-500">Tabs</span>
+                Technologies</Nuxt-Link
+              >
             </p>
           </div>
-
         </div>
       </div>
     </div>
   </footer>
 </template>
 <script>
-export default {
-  data() {
-    return {
-      currentYear: new Date().getFullYear()
-    };
+  export default {
+    data() {
+      return {
+        currentYear: new Date().getFullYear(),
+      }
+    },
   }
-};
 </script>
 <style scoped></style>

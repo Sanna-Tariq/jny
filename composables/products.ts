@@ -1,18 +1,20 @@
-/**
- * Custom hook to fetch product data
- * @returns {Object} An object containing products or error details
- */
+import type { Products } from '@/types/products'
+import { products as allProducts } from '@/product.json'
+allProducts as Products
 export const useProducts = async () => {
-    const { data, error } = await useFetch('/api/adopt/product-data')
-    // Error Message!
-    if (error.value) {
-        console.error('Error in useProducts')
-        throw createError({
-            ...error.value,
-            statusMessage: `Couldn't fetch product details.`,
-        })
-    }
-
-    const { allProducts, someProducts } = data.value
-    return { allProducts, someProducts }
+  const someProducts: Products = fractionOfThePetsArray(allProducts, 4)
+  return {
+    allProducts,
+    someProducts,
+  }
+}
+//
+const fractionOfThePetsArray = (inputItem, numberOfItems) => {
+  return inputItem
+    .map((item) => ({
+      ...item,
+      sort: Math.random(),
+    }))
+    .sort((a, b) => a.sort - b.sort)
+    .slice(0, numberOfItems)
 }

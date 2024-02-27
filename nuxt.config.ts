@@ -16,9 +16,8 @@ const {
 export default defineNuxtConfig({
   nitro: {
     prerender: {
-      routes: ['/', '/about', '/contact'],
-      // ignore: ['/product']
-    }
+      routes: ['/', '/about', '/contact', 'product', '/product/[id]'],
+    },
   },
   extends: [
     './my-nuxt-tailwindcss-layer', // NavBar and Footer components
@@ -92,6 +91,7 @@ export default defineNuxtConfig({
   },
 
   image: {
+    provider: 'ipx',
     // dir: 'assets/images', // doesn't always work, for eg, with vercel etc, https://github.com/nuxt/image/issues/1006. Therefore, we are storing the images in public folder, to have them not processed by vite, but rather by nuxt-image module on-demand
     // sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw', // Global sizes not yet supported, has to be specified in NuxtImg or NuxtPicture tags - https://github.com/nuxt/image/issues/216
     // densities: [1,2], // default

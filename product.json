@@ -1,44 +1,44 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "JNY Tissues",
-            "material": "Paper pulp",
-            "color": "White",
-            "feature": "Highly absorbent",
-            "price": "50",
-            "country": "India",
-            "image": "/products/tissue.webp"
-        },
-        {
-            "id": 2,
-            "name": "Disposable Coffee Cups",
-            "material": "plastic",
-            "color": "Multiple colors available",
-            "feature": "Single use",
-            "price": "50",
-            "country": "India",
-            "image": "/products/coffee-cups.webp"
-        },
-        {
-            "id": 3,
-            "name": "150ml paper Tea cups",
-            "material": "paper",
-            "color": "multi-color",
-            "feature": "Biodegradable",
-            "price": "10",
-            "country": "India",
-            "image": "/products/paper-cups.webp"
-        },
-        {
-            "id": 4,
-            "name": "Disposable plates",
-            "material": "plastic",
-            "color": "Transparent and different colors available",
-            "feature": "Single use",
-            "price": "15",
-            "country": "India",
-            "image": "/products/plate.webp"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "JNY Tissues",
+      "material": "Paper pulp",
+      "color": "White",
+      "feature": "Highly absorbent",
+      "price": "50",
+      "country": "India",
+      "image": "/products/tissue.webp"
+    },
+    {
+      "id": 2,
+      "name": "Disposable Coffee Cups",
+      "material": "plastic",
+      "color": "Multiple colors available",
+      "feature": "Single use",
+      "price": "50",
+      "country": "India",
+      "image": "/products/coffee-cups.webp"
+    },
+    {
+      "id": 3,
+      "name": "150ml paper Tea cups",
+      "material": "paper",
+      "color": "multi-color",
+      "feature": "Biodegradable",
+      "price": "10",
+      "country": "India",
+      "image": "/products/paper-cups.webp"
+    },
+    {
+      "id": 4,
+      "name": "Disposable plates",
+      "material": "plastic",
+      "color": "Transparent and different colors available",
+      "feature": "Single use",
+      "price": "15",
+      "country": "India",
+      "image": "/products/plate.webp"
+    }
+  ]
 }

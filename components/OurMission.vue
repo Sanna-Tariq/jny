@@ -2,7 +2,11 @@
   <div class="container mx-auto px-4 py-12 relative">
     <div class="-mx-4 flex flex-wrap items-center">
       <div class="p-4 w-full lg:w-6/12">
-        <NuxtImg src="/about-sec.webp" class="rounded-3xl w-full" alt="About-image" />
+        <NuxtImg
+          src="/about-sec.webp"
+          class="rounded-3xl w-full"
+          alt="About-image"
+        />
       </div>
       <div class="mx-auto p-4 w-full lg:w-5/12">
         <h6 class="mb-2 text-primary-600 dark:text-primary-200 uppercase">
@@ -12,11 +16,14 @@
           Pioneering Excellence in Disposable Solutions
         </h3>
         <p class="mb-6 text-justify">
-          At JNY Enterprises, we pride ourselves on being pioneers in the disposable solutions industry. With a passion
-          for innovation and a dedication to quality, we have been serving our customers with excellence since our
-          inception. Our journey began with a vision to provide practical, convenient, and eco-friendly alternatives to
-          traditional products. Today, we continue to uphold these values as we strive to meet the evolving needs of our
-          clients.</p>
+          At JNY Enterprises, we pride ourselves on being pioneers in the
+          disposable solutions industry. With a passion for innovation and a
+          dedication to quality, we have been serving our customers with
+          excellence since our inception. Our journey began with a vision to
+          provide practical, convenient, and eco-friendly alternatives to
+          traditional products. Today, we continue to uphold these values as we
+          strive to meet the evolving needs of our clients.
+        </p>
         <!-- <p>
 
           Our commitment to sustainability is at the core of everything we do. We prioritize environmentally-friendly
